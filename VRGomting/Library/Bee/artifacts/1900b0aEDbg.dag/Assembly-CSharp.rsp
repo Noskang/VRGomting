@@ -441,6 +441,7 @@
 -r:"Library/Bee/artifacts/1900b0aEDbg.dag/VoiceSDK.Telemetry.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.42f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+"Assets/AS_Scripts/SC_Animator.cs"
 "Assets/AS_Scripts/SC_Audiomanager.cs"
 "Assets/AS_Scripts/SC_Chattypecontrol_권유1.cs"
 "Assets/AS_Scripts/SC_sceneload girl.cs"
