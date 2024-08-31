@@ -6402,6 +6402,9 @@ MonoBehaviour:
   characterTransform: {fileID: 0}
   triggerTransform: {fileID: 147473648}
   educationVideo: {fileID: 1872030403}
+  video: {fileID: 1872030404}
+  activatedelay: 5
+  videoplaydelay: 5
 --- !u!4 &1589295992
 Transform:
   m_ObjectHideFlags: 0

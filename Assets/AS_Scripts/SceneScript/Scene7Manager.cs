@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class Scene7Manager : MonoBehaviour
 {
@@ -9,14 +10,20 @@ public class Scene7Manager : MonoBehaviour
     public Transform characterTransform;
     public Transform triggerTransform;
     public GameObject educationVideo;
+    public VideoPlayer video;
     private Vector3 moveVector;
     private bool canwalk;
+
+    // 딜레이용 변수
+    public float activatedelay;
+    public float videoplaydelay;
 
     // Start is called before the first frame update
     void Start()
     {
         characterTransform = animator.gameObject.GetComponent<Transform>();
         animator.ChangeAnimationEvent(7);
+        video = educationVideo.GetComponent<VideoPlayer>();
         moveVector = new Vector3(0, 0, walkspeed);
         canwalk = true;
     }
@@ -33,27 +40,31 @@ public class Scene7Manager : MonoBehaviour
         if(characterTransform.position.z > triggerTransform.position.z)
         {
             animator.ChangeAnimationEvent(1);
-            Invoke("Wait1Sec", 1f);
             canwalk = false;
 
 
-            Invoke("Wait3Sec", 3f);
-            if (educationVideo.activeSelf == false) ;
+            if (educationVideo.activeSelf == false)
             {
-                
-                educationVideo.SetActive(true);
+
+                StartCoroutine(activateVideo(videoplaydelay));
             }
         }
     }
-    
-    void wait1sec()
-    {
 
+    public IEnumerator activateVideo(float delaytime)
+    {
+        yield return new WaitForSeconds(delaytime);
+        educationVideo.SetActive(true);
+        video.Pause();
+
+        StartCoroutine(palyVideo(videoplaydelay));
     }
 
-    void wait3sec()
-    {
 
+    public IEnumerator palyVideo(float delaytime)
+    {
+        yield return new WaitForSeconds(delaytime);
+        video.Play();
     }
 
 }
