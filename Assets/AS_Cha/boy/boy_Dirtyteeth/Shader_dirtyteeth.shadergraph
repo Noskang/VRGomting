@@ -454,10 +454,10 @@
     "m_Guid": {
         "m_GuidSerialized": "b566e5a1-debd-4c08-8c09-396b18c1a629"
     },
-    "m_Name": "Opacity",
+    "m_Name": "Blend",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Opacity",
-    "m_DefaultReferenceName": "_Opacity",
+    "m_RefNameGeneratedByDisplayName": "Blend",
+    "m_DefaultReferenceName": "_Blend",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -1125,7 +1125,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "bc633bad36984fffaabee10b7fcd3506",
     "m_Id": 0,
-    "m_DisplayName": "Opacity",
+    "m_DisplayName": "Blend",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

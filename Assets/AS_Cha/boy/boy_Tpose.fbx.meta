@@ -28,7 +28,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: teeth_low.003
-    second: {fileID: 2100000, guid: 050b2f2098aefb743849b57563a7c178, type: 2}
+    second: {fileID: 2100000, guid: e38078e8db32a7b49bd8ac820a311e7d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

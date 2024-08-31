@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MI_dirtyteeth
+  m_Name: MI_dirtyteethboy
   m_Shader: {fileID: -6465566751694194690, guid: c52b3fa91bf8bff4eb30b23fc40cdc29,
     type: 3}
   m_Parent: {fileID: 0}
@@ -96,7 +96,7 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _Blend: 0
+    - _Blend: 1
     - _BlendModePreserveSpecular: 1
     - _BumpScale: 1
     - _ClearCoatMask: 0
