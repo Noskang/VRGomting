@@ -5,6 +5,7 @@ using UnityEngine.Video;
 
 public class Scene7Manager : MonoBehaviour
 {
+    public float startdelay;
     public SC_Animator animator;
     public float walkspeed;
     public Transform characterTransform;
@@ -25,8 +26,15 @@ public class Scene7Manager : MonoBehaviour
         animator.ChangeAnimationEvent(7);
         video = educationVideo.GetComponent<VideoPlayer>();
         moveVector = new Vector3(0, 0, walkspeed);
+        StartCoroutine(Start(startdelay));
+        
+    }
+    public IEnumerator Start(float delay)
+    {
+        yield return new WaitForSeconds(delay);
         canwalk = true;
     }
+
 
     // Update is called once per frame
     void Update()

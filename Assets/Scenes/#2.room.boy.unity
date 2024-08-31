@@ -3213,7 +3213,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1112623250}
         m_TargetAssemblyTypeName: Scene1Manager, Assembly-CSharp
-        m_MethodName: Speak2
+        m_MethodName: YesbuttonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4686,7 +4686,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fc4a3a29e5a418e4bac1fff3c948cd07, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.2
   m_Pitch: 1
   Loop: 0
@@ -7032,6 +7032,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ae0fc844ffbef248843fd3fd11c8fe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startdelay: 0
+  speak1delay: 0
+  choice1delay: 0
+  postprocessdelay: 0
+  speak2delay: 0
+  choice2delay: 0
   animator: {fileID: 715924155}
   speak1: {fileID: 1480383507}
   speak2: {fileID: 1271422930}
