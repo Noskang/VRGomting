@@ -39,7 +39,6 @@ public class Scene1Manager : MonoBehaviour
         yield return new WaitForSeconds(speak1delay);
         animator.SetInteger("Scene", 2);
         
-
         yield return new WaitForSeconds(0.01f);
         animator.SetInteger("Scene", 1);
         yield return new WaitForSeconds(choice1delay);
@@ -55,9 +54,9 @@ public class Scene1Manager : MonoBehaviour
 
     public IEnumerator YesbuttonClick(float delay)
     {
-        yield return new WaitForSeconds(delay);
         postprocessing.enabled = !postprocessing.enabled;
-
+        yield return new WaitForSeconds(delay);
+        Speak2();
     }
 
 
