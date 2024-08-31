@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using TMPro; // TextMeshPro를 사용하기 위한 네임스페이스
 
-public class MyChatControllermboy2 : MonoBehaviour
+public class MyChatControllerboy2 : MonoBehaviour
 {
     public TextMeshProUGUI chatText; // TextMeshProUGUI 컴포넌트
     public float typingSpeed = 0.05f; // 타이핑 속도

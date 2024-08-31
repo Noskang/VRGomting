@@ -32,16 +32,28 @@ public class Scene7Manager : MonoBehaviour
 
         if(characterTransform.position.z > triggerTransform.position.z)
         {
-            canwalk = false;
             animator.ChangeAnimationEvent(1);
+            Invoke("Wait1Sec", 1f);
+            canwalk = false;
 
-            if (educationVideo.activeSelf == false)
+
+            Invoke("Wait3Sec", 3f);
+            if (educationVideo.activeSelf == false) ;
             {
                 
                 educationVideo.SetActive(true);
             }
         }
     }
-
     
+    void wait1sec()
+    {
+
+    }
+
+    void wait3sec()
+    {
+
+    }
+
 }
