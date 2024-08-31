@@ -6,6 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/0.charaselect.unity
+    guid: ae7fab947c29fd0429d86446bb1905cb
+  - enabled: 1
+    path: Assets/Scenes/1.room.girl.unity
+    guid: f7aefd9f8bfac9b45a7902eaf8602b52
+  - enabled: 1
+    path: Assets/Scenes/2.room.boy.unity
+    guid: 5799458b1c3a7c548bb00365ffa5893c
+  - enabled: 1
+    path: Assets/Scenes/3.teeth.girl.unity
+    guid: 95a658eaa2c61ea4dac89e57a44c17ce
+  - enabled: 1
+    path: Assets/Scenes/4.teeth.boy.unity
+    guid: 23771dad50cd45c4585e20a0c2a19cf7
+  - enabled: 1
+    path: Assets/Scenes/5.dirtyroom.girl.unity
+    guid: 9f263aa128558bb47bfcbf04d1efbf63
+  - enabled: 1
+    path: Assets/Scenes/6.dirtyroom.boy.unity
+    guid: db1fe0d00a43d1a4a9846bbec550fd44
+  - enabled: 1
+    path: Assets/Scenes/7.Street_girl.unity
+    guid: 091c1cf0273ac1340ab819728029b95e
+  - enabled: 1
+    path: Assets/Scenes/8.Street.boy.unity
+    guid: 95ccabc69ad797e4f9e1ae37441ad2c6
+  - enabled: 1
+    path: Assets/Scenes/9.End.unity
+    guid: 2076e6c82987fd64b916bcd01efcd93b
   m_configObjects: {}

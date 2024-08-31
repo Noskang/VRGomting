@@ -12,7 +12,7 @@ public class MyChatController4 : MonoBehaviour
     void Start()
     {
         // 예시 대사 시작
-        StartCoroutine(TypeText("잠깐만... 나 왜 이렇게 배가 아프지?"));
+        StartCoroutine(TypeText("잠깐만... 나 왜 이렇게 배가 아프지?\r\n          엄마! 나 토할 것 같아!"));
     }
 
     IEnumerator TypeText(string textToType)

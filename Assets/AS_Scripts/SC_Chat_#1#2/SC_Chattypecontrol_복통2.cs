@@ -12,7 +12,7 @@ public class MyChatController5 : MonoBehaviour
     void Start()
     {
         // 예시 대사 시작
-        StartCoroutine(TypeText("엄마! 나 토할 것 같아!"));
+        StartCoroutine(TypeText("마약 복용 시, 장운동 저하 및 \r\n      소화 기능 마비 초래"));
     }
 
     IEnumerator TypeText(string textToType)
