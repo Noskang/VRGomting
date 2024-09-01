@@ -12,7 +12,7 @@ public class MyChatControllerwalk1: MonoBehaviour
     void Start()
     {
         // 예시 대사 시작
-        StartCoroutine(TypeText("뭐야 왜 몸이 멋대로..."));
+        StartCoroutine(TypeText("뭐야 왜 멋대로...\r\n몸이 말을 안들어!"));
     }
 
     IEnumerator TypeText(string textToType)
